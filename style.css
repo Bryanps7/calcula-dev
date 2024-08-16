@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.container {
+    box-shadow: 0 0 5px gray;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(250, 248, 242);
+}
+
+#display {
+    height: 50px;
+    padding: 10px;
+    text-align: end;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 3rem;
+    width: 20%;
+    border: 0;
+    box-shadow: 0 0 2px gray;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}
+
+.especial {
+    background-color: orangered;
+}
